@@ -1,0 +1,33 @@
+page-home {
+
+	.container {
+
+		margin: -5px;
+
+		ion-list {
+			box-shadow: 1px 1px 2px #888;
+			background-color: #eee;
+		}
+
+		ion-item {
+			background-color: transparent;
+		}
+
+		ion-input {
+			margin: 5px;
+			padding-left: 5px;
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+
+	ion-card {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 4;
+		justify-content: center;
+		
+		.score {
+			font-size: 200%;
+		}
+	}
+}
